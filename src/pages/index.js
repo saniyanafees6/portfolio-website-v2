@@ -4,14 +4,10 @@ import full01 from '../assets/images/fulls/01.jpg'
 import full02 from '../assets/images/fulls/02.jpg'
 import full03 from '../assets/images/fulls/03.jpg'
 import full04 from '../assets/images/fulls/04.jpg'
-import full05 from '../assets/images/fulls/05.jpg'
-import full06 from '../assets/images/fulls/06.jpg'
 import thumb01 from '../assets/images/thumbs/01.jpg'
 import thumb02 from '../assets/images/thumbs/02.jpg'
 import thumb03 from '../assets/images/thumbs/03.jpg'
 import thumb04 from '../assets/images/thumbs/04.jpg'
-import thumb05 from '../assets/images/thumbs/05.jpg'
-import thumb06 from '../assets/images/thumbs/06.jpg'
 import Gallery from '../components/Gallery'
 import Layout from '../components/layout'
 
@@ -20,48 +16,36 @@ const DEFAULT_IMAGES = [
     id: '1',
     source: full01,
     thumbnail: thumb01,
-    caption: 'Photo 1',
-    description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.',
+    caption: 'Dover',
+    description: 'A social media app built with C#, React and SQLite3',
   },
   {
     id: '2',
     source: full02,
     thumbnail: thumb02,
-    caption: 'Photo 2',
-    description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.',
+    caption: 'Automated diagnosis model using transfer learning',
+    description:
+      'Transfer Learning to distinguish between Pneumonia and Normal X-Rays',
   },
   {
     id: '3',
     source: full03,
     thumbnail: thumb03,
-    caption: 'Photo 3',
-    description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.',
+    caption: 'The Galaxy Times',
+    description: 'React application pulling data from various NASA APIs',
   },
   {
     id: '4',
     source: full04,
     thumbnail: thumb04,
-    caption: 'Photo 4',
-    description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.',
-  },
-  {
-    id: '5',
-    source: full05,
-    thumbnail: thumb05,
-    caption: 'Photo 5',
-    description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.',
-  },
-  {
-    id: '6',
-    source: full06,
-    thumbnail: thumb06,
-    caption: 'Photo 6',
-    description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.',
+    caption: 'Smart Sensor Glasses with Cane',
+    description:
+      'Raspberry Pi based device designed to assist the visually impaired',
   },
 ]
 
 const HomeIndex = () => {
-  const siteTitle = 'Gatsby Starter - Strata'
+  const siteTitle = 'Saniya Nafees | Software Developer'
   const siteDescription = 'Site description'
 
   return (
@@ -74,30 +58,86 @@ const HomeIndex = () => {
       <div id="main">
         <section id="one">
           <header className="major">
-            <h2>
-              Ipsum lorem dolor aliquam ante commodo
-              <br />
-              magna sed accumsan arcu neque.
-            </h2>
+            <h2>Hi there, I'm Saniya!</h2>
           </header>
           <p>
-            Accumsan orci faucibus id eu lorem semper. Eu ac iaculis ac nunc
-            nisi lorem vulputate lorem neque cubilia ac in adipiscing in curae
-            lobortis tortor primis integer massa adipiscing id nisi accumsan
-            pellentesque commodo blandit enim arcu non at amet id arcu magna.
-            Accumsan orci faucibus id eu lorem semper nunc nisi lorem vulputate
-            lorem neque cubilia.
+            I'm a software developer based in Colorado specializing in building
+            user friendly applications and websites. Shortly after graduating{' '}
+            <a href="https://www.njit.edu/">
+              New Jersey Institute of Technology
+            </a>{' '}
+            I joined <a href="https://www.clarksusa.com">Clarks</a>, where I
+            worked as a Front End Developer and got the opportunity to work on
+            interesting and meaningful projects on a daily basis.
           </p>
+          <p>Here's some of the technologies I enjoy working with:</p>
+          <ul className="skills">
+            <li>C#</li>
+            <li>Python</li>
+            <li>Java</li>
+            <li>C++</li>
+            <li>JavaScript</li>
+            <li>SQL</li>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Firebase</li>
+            <li>React</li>
+            <li>jQuery</li>
+            <li>Sass</li>
+            <li>Git</li>
+            <li>Markdown</li>
+            <li>Assembly</li>
+          </ul>
           <ul className="actions">
             <li>
               <a href="#" className="button">
-                Learn More
+                Get In Touch
               </a>
             </li>
           </ul>
         </section>
 
         <section id="two">
+          <h2>Work Experience</h2>
+          <div className="jobs">
+            <div id="job1" className="job">
+              <h3>
+                <span className="jobtitle">Jr. Front End Developer</span>
+                <span className="companyname">
+                  <span>&nbsp;@&nbsp;</span>
+                  <a href="https://www.clarksusa.com/" target="_blank">
+                    Clarks
+                  </a>
+                </span>
+              </h3>
+              <h4 class="jobduration">
+                <span>January 2019 - April 2020</span>
+              </h4>
+              <div>
+                <ul>
+                  <li>
+                    Managed and updated front end of Clarks USA eCommerce
+                    website
+                  </li>
+                  <li>
+                    Created new features functionality and capabilities on the
+                    site using jQuery, HTML and CSS
+                  </li>
+                  <li>
+                    Supported Email Marketing coding requirements on Salesforce
+                    Marketing Cloud platform
+                  </li>
+                  <li>
+                    Ran A/B tests and analyze consumer behavior using Monetate
+                    platform.
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="three">
           <h2>Recent Work</h2>
 
           <Gallery
@@ -120,13 +160,9 @@ const HomeIndex = () => {
           </ul>
         </section>
 
-        <section id="three">
+        <section id="four">
           <h2>Get In Touch</h2>
-          <p>
-            Accumsan pellentesque commodo blandit enim arcu non at amet id arcu
-            magna. Accumsan orci faucibus id eu lorem semper nunc nisi lorem
-            vulputate lorem neque lorem ipsum dolor.
-          </p>
+          <p>Have a question or want to work together?</p>
           <div className="row">
             <div className="8u 12u$(small)">
               <form method="post" action="#">
@@ -169,23 +205,19 @@ const HomeIndex = () => {
                   <h3 className="icon fa-home">
                     <span className="label">Address</span>
                   </h3>
-                  1234 Somewhere Rd.
-                  <br />
-                  Nashville, TN 00000
-                  <br />
-                  United States
+                  Colorado, United States
                 </li>
                 <li>
                   <h3 className="icon fa-mobile">
                     <span className="label">Phone</span>
                   </h3>
-                  000-000-0000
+                  (864) 607-0654
                 </li>
                 <li>
                   <h3 className="icon fa-envelope-o">
                     <span className="label">Email</span>
                   </h3>
-                  <a href="#">hello@untitled.tld</a>
+                  <a href="#">saniyanafees6@gmail.com</a>
                 </li>
               </ul>
             </div>
