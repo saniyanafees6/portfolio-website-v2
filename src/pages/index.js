@@ -154,7 +154,7 @@ const HomeIndex = () => {
           <ul className="actions">
             <li>
               <a href="#" className="button">
-                Full Portfolio
+                See More On Github
               </a>
             </li>
           </ul>
@@ -217,7 +217,9 @@ const HomeIndex = () => {
                   <h3 className="icon fa-envelope-o">
                     <span className="label">Email</span>
                   </h3>
-                  <a href="#">saniyanafees6@gmail.com</a>
+                  <a href="mailto: saniyanafees6@gmail.com" target="_top">
+                    saniyanafees6@gmail.com
+                  </a>
                 </li>
               </ul>
             </div>
