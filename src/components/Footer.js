@@ -9,7 +9,7 @@ const Footer = () => (
             href="https://www.linkedin.com/in/saniya-nafees/"
             className="icon fa-linkedin"
           >
-            <span className="label">Linked In</span>
+            <span className="label">LinkedIn</span>
           </a>
         </li>
         <li>

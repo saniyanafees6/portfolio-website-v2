@@ -90,7 +90,7 @@ const HomeIndex = () => {
           </ul>
           <ul className="actions">
             <li>
-              <a href="#" className="button">
+              <a href="mailto:saniyanafees6@gmail.com" className="button">
                 Get In Touch
               </a>
             </li>
@@ -153,7 +153,7 @@ const HomeIndex = () => {
 
           <ul className="actions">
             <li>
-              <a href="#" className="button">
+              <a href="https://github.com/saniyanafees6/" className="button">
                 See More On Github
               </a>
             </li>
@@ -162,68 +162,17 @@ const HomeIndex = () => {
 
         <section id="four">
           <h2>Get In Touch</h2>
-          <p>Have a question or want to work together?</p>
-          <div className="row">
-            <div className="8u 12u$(small)">
-              <form method="post" action="#">
-                <div className="row uniform 50%">
-                  <div className="6u 12u$(xsmall)">
-                    <input
-                      type="text"
-                      name="name"
-                      id="name"
-                      placeholder="Name"
-                    />
-                  </div>
-                  <div className="6u 12u$(xsmall)">
-                    <input
-                      type="email"
-                      name="email"
-                      id="email"
-                      placeholder="Email"
-                    />
-                  </div>
-                  <div className="12u">
-                    <textarea
-                      name="message"
-                      id="message"
-                      placeholder="Message"
-                      rows="4"
-                    ></textarea>
-                  </div>
-                </div>
-                <ul className="actions" style={{ marginTop: 30 }}>
-                  <li>
-                    <input type="submit" value="Send Message" />
-                  </li>
-                </ul>
-              </form>
-            </div>
-            <div className="4u 12u$(small)">
-              <ul className="labeled-icons">
-                <li>
-                  <h3 className="icon fa-home">
-                    <span className="label">Address</span>
-                  </h3>
-                  Colorado, United States
-                </li>
-                <li>
-                  <h3 className="icon fa-mobile">
-                    <span className="label">Phone</span>
-                  </h3>
-                  (864) 607-0654
-                </li>
-                <li>
-                  <h3 className="icon fa-envelope-o">
-                    <span className="label">Email</span>
-                  </h3>
-                  <a href="mailto: saniyanafees6@gmail.com" target="_top">
-                    saniyanafees6@gmail.com
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </div>
+          <p>
+            Have a question or want to work together? My inbox is alway open,
+            send me a message I'll do my best to get back to you!
+          </p>
+          <ul className="actions">
+            <li>
+              <a href="mailto:saniyanafees6@gmail.com" className="button">
+                Say Hello!
+              </a>
+            </li>
+          </ul>
         </section>
       </div>
     </Layout>
