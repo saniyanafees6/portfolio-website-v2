@@ -72,21 +72,15 @@ const HomeIndex = () => {
           </p>
           <p>Here's some of the technologies I enjoy working with:</p>
           <ul className="skills">
-            <li>C#</li>
-            <li>Python</li>
-            <li>Java</li>
-            <li>C++</li>
             <li>JavaScript</li>
-            <li>SQL</li>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>Firebase</li>
             <li>React</li>
             <li>jQuery</li>
-            <li>Sass</li>
+            <li>HTML & CSS/Sass</li>
+            <li>Python</li>
+            <li>SQL</li>
+            <li>Firebase</li>
             <li>Git</li>
             <li>Markdown</li>
-            <li>Assembly</li>
           </ul>
           <ul className="actions">
             <li>
