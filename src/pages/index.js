@@ -16,8 +16,8 @@ const DEFAULT_IMAGES = [
     id: '1',
     source: full01,
     thumbnail: thumb01,
-    caption: 'Dover',
-    description: 'A social media app built with C#, React and SQLite3',
+    caption: 'GetFlix',
+    description: 'A movie rental website built in REACT.js. External APIs used: TMDB & Stripe API',
   },
   {
     id: '2',
